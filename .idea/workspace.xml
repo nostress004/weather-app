@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0dd170-3703-46f6-ba9d-53b64af650f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/WeatherInfoDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherInfoDisplay.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="3b0dd170-3703-46f6-ba9d-53b64af650f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherInfoDisplay.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherInfoDisplay.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WeatherInfoDisplay.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="260">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -145,10 +143,10 @@
         <option value="$PROJECT_DIR$/src/types/Coordinate.ts" />
         <option value="$PROJECT_DIR$/src/types/Position.ts" />
         <option value="$PROJECT_DIR$/src/types/Coordinates.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/types/PositionError.ts" />
         <option value="$PROJECT_DIR$/src/weather.css" />
         <option value="$PROJECT_DIR$/src/WeatherInfoDisplay.tsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -261,12 +259,12 @@
       <workItem from="1564642191935" duration="438000" />
       <workItem from="1565254520191" duration="2063000" />
       <workItem from="1565709464906" duration="14196000" />
-      <workItem from="1565730112938" duration="9918000" />
+      <workItem from="1565730112938" duration="10399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27314000" />
+    <option name="totallyTimeSpent" value="27795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -416,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/types/Position.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -446,11 +437,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WeatherInfoDisplay.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="219">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
