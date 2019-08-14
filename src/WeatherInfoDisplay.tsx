@@ -10,7 +10,7 @@ const WEATHER_API_KEY = '67016261fe6f47307e52b966d81605ef';
 export default function WeatherInfoDisplay() {
     const [weatherInfo, setWeatherInfo] = useState<WeatherType>();
     const [loaded, setLoaded] = useState<boolean>(false);
-    const [location, setLocation] = useState<Position>();
+    const [errorMessage, setErrorMessage] = useState<string>();
     const [currentCity, setCurrentCity] = useState<string>('');
     const defaultCity = 'Budapest';
 
@@ -45,7 +45,10 @@ export default function WeatherInfoDisplay() {
             .then(function(response) {
                  setWeatherInfo(response.data);
                  setLoaded(true);
-             });
+             })
+            .catch(error => {
+                setErrorMessage('Could not find location, please try another one!');
+            });
     }
 
     function submitCityForm(event: React.FormEvent<HTMLFormElement>){
@@ -76,6 +79,7 @@ export default function WeatherInfoDisplay() {
                         <input className="input-field" placeholder="Budapest" onChange={handleChange}/>
                         <button type="submit" className="btn btn-outline-success submitbutton">Submit</button>
                     </div>
+                    {errorMessage && <small>{errorMessage}</small>}
                 </form>
             }
         </div>;
