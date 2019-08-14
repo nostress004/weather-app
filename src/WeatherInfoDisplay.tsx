@@ -10,7 +10,7 @@ const WEATHER_API_KEY = '67016261fe6f47307e52b966d81605ef';
 export default function WeatherInfoDisplay() {
     const [weatherInfo, setWeatherInfo] = useState<WeatherType>();
     const [loaded, setLoaded] = useState<boolean>(false);
-    const [errorMessage, setErrorMessage] = useState<string>();
+    const [errorMessage, setErrorMessage] = useState<string>('');
     const [currentCity, setCurrentCity] = useState<string>('');
     const defaultCity = 'Budapest';
 
@@ -28,7 +28,7 @@ export default function WeatherInfoDisplay() {
         const { coords } = position;
 
         axios.get('http://api.openweathermap.org/data/2.5/weather',
-            {params: {lat: coords.latitude, lon: coords.longitude, appid:WEATHER_API_KEY, units: 'metric'}})
+            {params: {lat: coords.latitude, lon: coords.longitude, appid: WEATHER_API_KEY, units: 'metric'}})
             .then(function(response) {
                 setWeatherInfo(response.data);
                 setLoaded(true);
@@ -41,7 +41,7 @@ export default function WeatherInfoDisplay() {
 
     function getWeatherByCity(city: string) {
         axios.get('http://api.openweathermap.org/data/2.5/weather',
-            {params: {q: city, appid:WEATHER_API_KEY, units: 'metric'}})
+            {params: {q: city, appid: WEATHER_API_KEY, units: 'metric'}})
             .then(function(response) {
                  setWeatherInfo(response.data);
                  setLoaded(true);
